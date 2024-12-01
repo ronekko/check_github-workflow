@@ -1,0 +1,18 @@
+name: check-build
+
+on: [push]
+
+jobs:
+  build-linux-gcc:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Configure system
+        run: scripts/configure_system.sh
+      - name: Install dependencies
+        run: scripts/install_dependencies.sh
+      - name: Build
+        run: scripts/build.sh
+      - name: Run
+        run: scripts/run.sh

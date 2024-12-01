@@ -1,0 +1,15 @@
+Language: Cpp
+BasedOnStyle: Google
+ColumnLimit: 120
+IndentWidth: 4
+
+AccessModifierOffset: -4
+AlignAfterOpenBracket: AlwaysBreak
+AlignTrailingComments: false
+BinPackArguments: false
+BinPackParameters: false
+CommentPragmas: '\|'
+ContinuationIndentWidth: 8
+DerivePointerAlignment: false
+IncludeBlocks: Preserve
+PointerAlignment: Left
