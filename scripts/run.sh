@@ -2,4 +2,4 @@
 
 set -ex
 
-time build/src/main
+time build/test/test_tcp_timeout

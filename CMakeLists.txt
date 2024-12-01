@@ -8,3 +8,4 @@ set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -fuse-ld=lld")
 
 # Sources.
 add_subdirectory(src)
+add_subdirectory(test)
