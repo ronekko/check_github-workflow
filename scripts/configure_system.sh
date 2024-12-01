@@ -2,8 +2,8 @@
 
 set -ex
 
-echo "net.ipv4.tcp_syn_retries=1" | sudo tee -a /etc/sysctl.conf
-sudo sysctl -p
+# echo "net.ipv4.tcp_syn_retries=1" | sudo tee -a /etc/sysctl.conf
+# sudo sysctl -p
 
 sysctl net.ipv4.tcp_keepalive_time
 sysctl net.ipv4.tcp_keepalive_intvl

@@ -2,4 +2,4 @@
 
 set -ex
 
-build/src/main
+time build/src/main
